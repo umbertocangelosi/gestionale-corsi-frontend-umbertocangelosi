@@ -35,7 +35,7 @@ export function Corsi({ Titolo }) {
   // Ritorna il componente Corsi, costituito da un titolo, un messaggio di avviso nel caso in cui l'utente non sia loggato e una lista di card dei corsi.
   return (
     <div className="container mt-5 mb-5">
-      <h2 className="mb-4">{Titolo}</h2> // Mostra il titolo passato come prop
+      <h2 className="mb-4">{Titolo}</h2> 
       {!user.isLogged && (
         <div className="alert alert-warning">
           <p>
