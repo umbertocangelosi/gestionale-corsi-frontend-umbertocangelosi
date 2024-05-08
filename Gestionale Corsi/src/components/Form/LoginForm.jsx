@@ -38,7 +38,7 @@ export function LoginForm() {
     let response = await LoginUtente(formData);
 
     if (response.ok) {
-      alert("Login effettuato con successo!");
+      
       setLoginState(true);
       const data = await response.json();
       const token = data.token;
