@@ -1,0 +1,92 @@
+/* Admin.module.css */
+.adminPage {
+    display: flex;
+    flex-direction: row;
+    height: 120vh; /* Altezza della pagina */
+}
+
+.navbar {
+    width: 40%;
+    overflow-x: auto; /* Abilita lo scrolling orizzontale */
+    white-space: nowrap; /* Evita il wrap del testo */
+    
+}
+
+/* Aggiungi stili quando la navbar è stata scrollata */
+
+.navbarContent {
+    overflow-x: auto; /* Abilita lo scrolling orizzontale solo per il contenitore della navbar */
+    white-space: nowrap; /* Evita il wrap del testo */
+    
+}
+
+.navMenu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    
+}
+
+.navMenu li {
+    margin-right: 20px;
+}
+
+.navMenu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+}
+
+.sidebarMenu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebarMenu li {
+    margin-bottom: 10px;
+}
+
+.sidebarMenu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.mainContent {
+    
+    padding: 10px;
+    width: 100%;
+    
+    
+}
+
+.table-container {
+    width: 80%; /* Larghezza della tabella */
+    margin-top: 20px; /* Aggiungi margine superiore */
+}
+
+.table {
+    width: 50%; /* Larghezza della tabella */
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Effetto visivo al passaggio del mouse */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
